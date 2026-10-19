@@ -15,11 +15,16 @@ header {
     background-color: rgb(204, 154, 171);
     padding: 20px;
 }
-header img{
+header .pfp{
     width: 300px;
     height: 300px;
     border: 20px solid #ebcece;
     border-radius: 50%;
+    background-image: url('./../img/ariana-grande-header.png');
+    background-repeat: no-repeat;
+    background-size: 120%;
+    margin: 0 auto;
+
 }
 header h1{
    font-family: "Gravitas One", serif;
