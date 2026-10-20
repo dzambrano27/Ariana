@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap');
+
+
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+p, ul, ol{
+    font-size: 20px;
+    line-height: 30px;
+}
+ul, ol{
+    padding: 0;
+    list-style-position: inside;
+}
+a, a:visited{
+    color: #ebcece;
+}
+a:hover{
+    color:rgb(187, 59, 89);
+}
+a:active{
+    color:#b37777
+}
+
+
+p.caption {
+    font-size: 16px;
+    color: #b37777;
+    font-style: oblique;
+    margin: 0;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+header {
+    text-align: center;
+    background-color: rgb(204, 154, 171);
+    padding: 20px;
+}
+header .pfp{
+    width: 300px;
+    height: 300px;
+    border: 20px solid #ebcece;
+    border-radius: 50%;
+    background-image: url('./../img/ariana-grande-header.png');
+    background-repeat: no-repeat;
+    background-size: 110%;
+    margin: 0 auto;
+
+}
+header .pfp.Yours-Truly{
+    background-image: url(./../img/ag1.png);
+    background-position: 0 0;
+    background-size: cover;
+    border-color:#9cadd2
+}
+h1{
+   font-family: "Gravitas One", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 70px;
+  margin: 10px 0 20px 0;
+  color:  #ebcece;
+}
+h2 {
+    font-family: "Gravitas One", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  margin: 20px 0;
+}
+h1 .YoursTruly{
+   font-family: "Gravitas One", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 70px;
+  margin: 10px 0 20px 0;
+  color:  #8e4444;
+}
+@media (max-width:600px){
+    h1{
+        font-size:50px;
+    }
+    h2{
+        font-size: 40px;
+    }
+  
+}
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+main img{
+     max-width: 100%;
+}
+footer {
+   background-color: rgb(204, 154, 171);
+   padding: 40px;
+   text-align: center;
+   margin-top: 60px;
+}
+footer .content{
+    max-width: 800px;
+   margin: 0 auto;
+}
+footer a,
+footer a:visited{
+    color: white;
+
+}
+footer a.hover{
+    color: rgb(137, 68, 68);
+    
+}
+@media (max-width: 600px){
+    footer p{
+        font-size: 16px;
+    }
+
+}
