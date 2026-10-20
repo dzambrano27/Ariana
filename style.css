@@ -45,7 +45,7 @@ header .pfp{
     height: 300px;
     border: 20px solid #ebcece;
     border-radius: 50%;
-    background-image: url(./img/ariana-grande-header.png');
+    background-image: url('./img/ariana-grande-header.png');
     background-repeat: no-repeat;
     background-size: 110%;
     margin: 0 auto;
