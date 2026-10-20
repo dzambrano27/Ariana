@@ -3,9 +3,34 @@
 
 
 body {
-    background-color: rgb(250, 223, 157);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+p, ul, ol{
+    font-size: 20px;
+    line-height: 30px;
+}
+ul, ol{
+    padding: 0;
+    list-style-position: inside;
+}
+a, a:visited{
+    color: #ebcece;
+}
+a:hover{
+    color:rgb(187, 59, 89);
+}
+a:active{
+    color:#b37777
 }
 
+
+p.caption {
+    font-size: 16px;
+    color: #b37777;
+    font-style: oblique;
+    margin: 0;
+}
 html, body{
     margin: 0;
     padding: 0;
@@ -26,11 +51,25 @@ header .pfp{
     margin: 0 auto;
 
 }
-header h1{
+h1{
    font-family: "Gravitas One", serif;
   font-weight: 400;
   font-style: normal;
   font-size: 70px;
   margin: 10px 0 20px 0;
   color:  #ebcece;
+}
+h2 {
+    font-family: "Gravitas One", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  margin: 20px 0;
+}
+main {
+    width: 800px;
+    margin: 0 auto;
+}
+main img{
+     max-width: 100%;
 }
