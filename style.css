@@ -53,6 +53,7 @@ header .pfp{
 }
 header .pfp.Yours-Truly{
     background-image: url('./img/ag1.png');
+    background-repeat: no-repeat;
     background-position: 0 0;
     background-size: cover;
     border-color:#9cadd2
