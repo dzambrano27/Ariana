@@ -51,7 +51,7 @@ header .pfp{
     margin: 0 auto;
 
 }
-header .pfp .yt{
+header .pfp.yt{
     background-image: url('./img/ariyt.jpeg');
     background-repeat: no-repeat;
     background-position: 0 0;
